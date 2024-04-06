@@ -1,0 +1,55 @@
+h1,p,body {
+    margin: 0;
+}
+header {
+    padding-bottom: 20px;
+    background-color: rgb(244, 79, 79);
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: rgb(255, 255, 255);
+}
+main {
+    padding: 10px;
+}
+#parent {
+    display: flex;
+    justify-content: space-around;
+}
+.contents {
+    border:solid 3px rgb(236, 122, 122);
+    flex-basis: 25%;
+    padding: 10px 15px;
+    /*  要素を中央揃えにjustify-content: center※不明点 */
+}
+h2 {
+    font-size: 25px;
+    border-bottom:3px dotted rgb(236, 122, 122);
+    } 
+h2::before {
+        content: "●";
+        color: rgb(239, 111, 139);
+    } 
+/* 雨だけ色を変えるfirst-letter※不明点 */
+.contents p:nth-of-type(2), {
+    border: bold;
+    color: rgb(97, 206, 249);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(244, 79, 79;
+}
+.copyright:visited {
+    color: rgb(193, 234, 251);
+}
+.copyright:hover {
+    color: rgb(245, 178, 168);
+}
+/* 画面幅768px以下になったら表示が変わる設定※不明点 */
+    @media screen and  (max-width: 768px){
+        div {
+            display: block;
+    }
+    }
