@@ -1,0 +1,465 @@
+/* index */
+body {
+    font-family: "Source Sans Pro","Hiragino Kaku Gothic ProN",Meiryo, Arial, sans-serif;
+}
+p {
+   font-size: 15px; 
+}
+/* PCスタイルを指定 */
+/* 画面幅が768px以上のとき */
+@media screen and (min-width: 768px) {    
+}
+body {
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+#nav-pc {
+    font-size: 14px;
+    padding-top: 15px;
+}
+#nav-pc > a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+#nav-pc > a:link {
+    color: #0d0d0d;
+}
+#nav-pc > a:visited {
+    color: #0d0d0d;
+}
+#nav-pc > a:hover {
+    color: #0d0d0d;
+    text-decoration: underline;
+}
+#nav-pc > a:active {
+    color: #0d0d0d;
+}
+#main-visual {
+    position: relative;
+    height: 400px;
+}
+#main-massage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #2710d5;
+    color: #ffffff;
+    border-radius: 0 0 476px 0;
+    width: 100%;
+    height: 100%;
+    max-width: 620px;
+    z-index: 11;
+}
+#main-massage > h1 {
+    font-size: 60px;
+    margin: 100px 0 0 50px;
+}
+#main-massage > p {
+    font-size: 28px;
+    margin: 0 0 0 50px;
+}
+#main-visual > img {
+    width: 620px;
+    border-radius: 476px 0 0 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+/* mission */
+h2 {
+    margin-top: 40px;
+}
+h2::after {
+    content: url("images/line.png");
+    margin-left: 10px;
+}
+h3 {
+    font-size: 27px;
+}
+#mission {
+    margin: 80px auto;
+    width: 100%;
+}
+#mission-flex {
+    width: 100%;
+    display: flex;
+}
+#mission-flex > div {
+    width: 50%;
+    margin: 20px;
+}
+#mission-photo {
+    width: 100%;
+}
+#s2dgs {
+    margin-top: 50px;
+    width: 100%;
+}
+/* product */
+#product {
+    background-color: #fafafa;
+    margin: 80px 0px 80px 0px;
+    padding: 10px 40px 0px 40px;
+}
+#product > div {
+    margin-top: 40px;
+    display: flex;
+}
+#product-left {
+    width: 50%;
+    margin-right: 20px;
+}
+#product-right {
+    width: 50%;
+    margin: 80px 0px 0px 20px;
+}
+#product-left > div {
+    position: relative;
+    margin-right: 20px;
+    height: 480px;
+}
+#product-right > div {
+    position: relative;
+    margin-left: 20px;
+    height: 480px;
+}
+.product-photo {
+    width: 100%;
+}
+.product-explain {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0px;
+    top: 280px;
+    margin: 0px 40px 0px 40px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+}
+.product-explain > span {
+    color: #2710d5;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+.product-explain >h3 {
+    font-size: 20px;
+    margin: 5px 0px 5px 0;
+}
+.product-explain > p {
+    font-size: 14px;
+    margin: 0px;
+}
+#product-more {
+    margin: 0px auto -42px auto ;
+}
+/* ABOUT US */
+#aboutus {
+    margin: 80px auto;
+}
+#aboutus > div {
+    display: flex;
+}
+.cluture-img {
+    width: 100%;
+    align-self: flex-start;
+}
+.cluture-img2 {
+    margin-top: 50px;
+    width: 100%;
+}
+.cluture-table {
+    margin-right: 50px;
+}
+.cluture-num {
+    font-size: 80px;
+    color: #2710d5;
+    margin-right: 20px;
+}
+.cluture-en {
+    color: #2710d5;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+}
+.cluture-jp {
+    font-size: 28px;
+    font-weight: bold;
+}
+.cluture-description {
+    margin: 0px;
+}
+/* VISION */
+#vision {
+    margin: 80px auto 80px auto;
+}
+#vision > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.vision-box {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.vision-box > img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+}
+.vision-box > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 31;
+    margin: 20px;
+}
+.vision-box > span >h4 {
+    color: #2710d5;
+    font-size: 19px;
+    margin-top: 80px;
+}
+.vision-box > span > h4::first-letter {
+    font-size: 40px;
+}
+.vision-box >span >h5 {
+    font-size: 20px;
+    margin: 0;
+}
+.vision-box > span >p {
+    margin-top: 10px;
+}
+/* ▼　課　　題　▼ */
+#cases {
+    margin: 40px 0;
+    width: 100%;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    width: 33%;
+    margin: 20px;
+}
+.case-card {
+    background-color: #ffffff;
+    height: 400px;
+    display: ruby;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.case-img {
+    width: 100%;
+}
+.case-info {
+    padding: 10px 20px;
+}
+.case-name {
+    color: #2710d5;
+    font-size: 19px;
+}
+.case-content {
+    font-size: 14px;
+}
+
+/* ▲　課　　題　▲ */
+#company {
+    margin: 80px auto;
+}
+#company-table {
+    width: 100%;
+}
+.tableheader {
+    text-align: left;
+    padding: 20px;
+    border-bottom-color: #2710d5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 100px;
+}
+.tableheader-first {
+    text-align: 30px;
+    border-top-color: #2710d5;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #2710d5;
+    border-top-width: 1px;
+    border-top-style: solid;
+ width: 100px;
+}
+.cell {
+    padding: 30px;
+    border-bottom-color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.cell-first {
+    padding: 30px;
+    border-top-color: #ececec;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #ececec;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+#company >iframe {
+    width: 100%;
+    height: 368px;
+    margin-top: 40px;
+}
+/* お問い合わせ */
+#contact {
+    margin: 80px auto;
+}
+#contact > form > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.contact-heading {
+    width: 240px;
+    align-self: center;
+}
+.contact-label {
+    font-weight: bold;
+}
+.contact-span {
+    color: #ce2222;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.contact-textbox {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 56px;
+}
+.contact-textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 200px;
+}
+footer {
+    background-color: #0d0d0d;
+    text-align: center;
+    padding: 80px 80px 30px 80px;
+}
+#footer-logo {
+    margin-bottom: 30px;
+}
+#footer-link {
+    margin-bottom: 50px;
+}
+#footer-link >a {
+    text-decoration: none;
+    margin: 10px;
+}
+#footer-link >a:link {
+    color: #ffffff;
+}
+#footer-link >a:visited {
+    color: #ffffff;
+}
+#footer-link >a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+#footer-link >a:active {
+    color: #ffffff;
+}
+#sns-footer {
+    text-align: left;
+    width: 100%;
+}
+#sns-footer >a {
+    margin-right: 30px;
+}
+#copyright {
+    color: #ffffff;
+    float: right;
+}
+/* スマホスタイルを指定 */
+/* 画面幅が768px以下のとき */
+@media screen and (max-width: 767px) {    
+}
+body {
+    min-width: 375px;
+    margin: 0;
+}
+#nav-pc {
+    display: none;
+}
+#menu-sp {
+    float: right;
+    padding: 0;
+}
+#nav-sp {
+    background-color: #2710d5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 100;
+}
+#close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#logo-sp {
+    margin: 80px 0 30px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
