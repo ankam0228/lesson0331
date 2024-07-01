@@ -17,15 +17,28 @@
                     <a href="hp.html" id="myprofile">MyProfile</a>
                 </div>
                 <div class="menu">
-                    <a href="hp.html#about">About</a>
-                    <a href="hp.html#Works">Works</a>
+                    <a id="ahover2" href="hp.html#about">About</a>
+                    <a id="ahover3" href="hp.html#Works">Works</a>
                 </div>
             </nav>
         </header>
         <main>
         <article>
-        <div>
-                <img id="main" src="images/main.png" alt="カメラの写真">
+        <div clsss="container">
+            <div class="slider">
+                <div class="slider-img">
+                    <img src="images/main.png" alt="カメラの写真">
+                </div>
+                <div class="slider-img">
+                    <img src="images/main2.png" alt="バッグの中身">
+                </div>
+                <div class="slider-img">
+                    <img src="images/main3.png" alt="夕焼けとカメラ">
+                </div>
+            </div>
+            <a class="backToTop" href="#" style="display: none;">
+                <span class="backToTop_inner">TOP</span>
+            </a>
         </div>
 
         <!-- section　ABOUT -->
@@ -33,7 +46,7 @@
         <section id="about">
                 <img id="item1" src="images/about.png" alt="顔写真">
                 <div id="item2">
-                    <h2>Kazuki Asahina</h2>
+                    <h2>　Kazuki Asahina</h2>
                     <ul>
                         <li>25歳　長野県佐久市出身</li>
                         <li>ソフトウェア業界でマーケティングに従事</li>
@@ -66,5 +79,8 @@
         <footer>
             <span id="copyright">&copy;MyProfile. All right reserved.</span>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="script.js"></script>      
     </body>
 </html>
