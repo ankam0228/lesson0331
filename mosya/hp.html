@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KazukiAsahinaのProfile</title>
+        <meta charset="utf-8">
+        <meta name="description=" content="KazukiAsahinaのProfile">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div>
+                    <a href="hp.html" id="myprofile">MyProfile</a>
+                </div>
+                <div class="menu">
+                    <a id="ahover2" href="hp.html#about">About</a>
+                    <a id="ahover3" href="hp.html#Works">Works</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+        <article>
+        <!--  -->
+        <div clsss="container">
+            <div class="slider">
+                <div class="slider-img">
+                    <img src="images/main.png" alt="カメラの写真">
+                </div>
+                <div class="slider-img">
+                    <img src="images/main2.png" alt="バッグの中身">
+                </div>
+                <div class="slider-img">
+                    <img src="images/main3.png" alt="夕焼けとカメラ">
+                </div>
+            </div>
+            <a class="backToTop" href="#" style="display: none;">
+                <span class="backToTop_inner">TOP</span>
+            </a>
+        </div>
+        <!--  -->
+
+        <!-- section　ABOUT -->
+        <h1 class="subtitle">About</h1>
+        <section id="about">
+                <img id="item1" src="images/about.png" alt="顔写真">
+                <div id="item2">
+                    <h2>　Kazuki Asahina</h2>
+                    <ul>
+                        <li>25歳　長野県佐久市出身</li>
+                        <li>ソフトウェア業界でマーケティングに従事</li>
+                        <li>趣味はカメラ、愛機はCanon</li>
+                        <li>自然を撮影するのが好きで、海や山によく行く</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- section　WORKS -->
+        <section>
+            <h1 class="subtitle">Works</h1>
+            <div id="works">
+                <div class="works-img">
+                    <img src="images/works1.png" alt="海の写真">
+                    <p>新潟に訪れた際に、日本海の雄大さに魅了されて撮影した1枚</p>    
+                </div>
+                <div class="works-img">
+                    <img src="images/works2.png" alt="山の写真">
+                    <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>  
+                </div>
+                <div class="works-img">
+                    <img src="images/works3.png" alt="町の写真">
+                    <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+                </div>
+            </div>
+        </section>
+        </article>
+        </main>
+        <footer>
+            <span id="copyright">&copy;MyProfile. All right reserved.</span>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="script.js"></script>      
+    </body>
+</html>
